@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 22 CSS - GridLayout</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 80% 1fr;
+            grid-template-rows: 20% 1fr 10%;
+            grid-gap: 20px;
+            height: 100vh;
+        }
+        header{
+            background-color: deeppink;
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+        main{
+            background-color: orange;
+        }
+        aside{
+            background-color: rgb(119, 0, 255);
+        }
+        footer{
+            background-color: chartreuse;
+            grid-column: 1/3;
+        }
+        section{
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            1
+        </header>
+        <main>
+            2
+            <section>
+                <h2>O que é o Grid Latoult</h2>
+                <article>
+                    <p>O grid layoult é bidimensional, permitindo que o desenvolvedor possa separar o layout da página
+                        em linhas e colunas diferentemente do flexbot que é unidimensional, ordenando os elementos em
+                        linha.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum reprehenderit assumenda laudantium
+                        nesciunt veritatis, deleniti omnis culpa illo consequuntur inventore totam quia placeat
+                        reiciendis! Molestias excepturi veniam numquam? Odit, expedita!</p>
+                </article>
+                <article>
+                    <h2>Flexgrid ou Grid Layout</h2>
+                    <p>O flexbox e Grid Layout podem ser utilizados em conjuntos. Você pode aplicar o Flexbox dentro de
+                        um layout que esteja usando o Grid Layout, aproveitando o melhor das duas técnicas.</p>
+                    <p>A escolha entre Flexbox e Grid Layout não se trata de um substituir o outro, mas sim de entender
+                        as necessidades específicas de cada layout aplicando as suas necessidades.</p>
+                </article>
+            </section>
+        </main>
+        <aside>
+            3
+        </aside>
+        <footer>
+            4
+        </footer>
+    </div>
+</body>
+
+</html>
