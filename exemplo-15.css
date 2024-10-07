@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 15 CSS</title>
+    <style>
+    .div1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1rem;
+        border: solid 6px red;
+        margin: 25px;
+        padding: 10px;
+        background-color: rgba(154, 33, 58,0.3) ;
+    }
+    .div2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1rem;
+        border: solid 6px blue;
+        margin: 25px 20px 15px 5px;
+        padding: 10px 15px 20px 25px;
+        background-color: rgba(154, 33, 58,0.3) ;
+    }
+    .div3{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1rem;
+        border: solid 6px rgb(0, 255, 64);
+        margin: 25px 20px;
+        padding: 10px 15px;
+        background-color: rgba(0, 255, 64, 0.3) ;
+    }
+    .div4{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1rem;
+        border: solid 6px rgb(193, 17, 190);
+        margin: 25px 20px 15px;
+        padding: 10px 15px 20px;
+        background-color: rgba(193, 17, 190, 0.3) ;
+    }
+    .div5{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1rem;
+        border-right: solid 6px rgb(49, 17, 193);
+        margin: 25px;
+        padding: 10px;
+        background-color: rgba(193, 17, 190, 0.3) ;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <h1>Exemplo 15 CSS - Box Model</h1>
+        <div class="div2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero impedit expedita placeat magnam quae harum facilis nihil, perferendis cupiditate facere sed blanditiis earum maxime ipsum nemo, voluptates, dolorum maiores sunt?</p>
+        </div>
+        <div class="div3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero impedit expedita placeat magnam quae harum facilis nihil, perferendis cupiditate facere sed blanditiis earum maxime ipsum nemo, voluptates, dolorum maiores sunt?</p>
+        </div>
+        <div class="div4">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero impedit expedita placeat magnam quae harum facilis nihil, perferendis cupiditate facere sed blanditiis earum maxime ipsum nemo, voluptates, dolorum maiores sunt?</p>
+        </div>
+        <div class="div5">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero impedit expedita placeat magnam quae harum facilis nihil, perferendis cupiditate facere sed blanditiis earum maxime ipsum nemo, voluptates, dolorum maiores sunt?</p>
+        </div>
+        <div class="div1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero impedit expedita placeat magnam quae harum facilis nihil, perferendis cupiditate facere sed blanditiis earum maxime ipsum nemo, voluptates, dolorum maiores sunt?</p>
+        </div>
+    </div>
+</body>
+</html>
+            
